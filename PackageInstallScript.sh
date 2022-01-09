@@ -8,6 +8,7 @@ whiptail --msgbox --title "Hello!" "Welcome to Package Install!" 0 0
 whiptail --msgbox "Updating your system..." 0 0
 clear
 sudo apt update
+sudo apt upgrade
 echo "Type anything to continue."
 read
 clear
